@@ -32,6 +32,11 @@ Recommender systems are tools for interacting with large and complex information
                 --conf_dir [YOUR CONFIGURATION DIRECTORY] \ (i.e. './drive/My Drive/Python/Recommendation_System-PyTorch/config' 
                 --seed YOUR SEED 
 
+## Result
+Plese refer to [Python Notebook](https://github.com/hyunjoonbok/Recommendation_System-PyTorch/blob/master/run_main.ipynb) that ran 1 sample epoch for the model SLIM (default)
+Modify methods in other python files to increase epoch and change other hyperparameters
+
+
 ## Create your own model
 1. Create 'Yourmodel.py' that inherits 'BaseModel.py'
 2. Create 'YourModel.json' file in 'config' folder
