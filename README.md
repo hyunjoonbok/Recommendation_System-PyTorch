@@ -1,15 +1,22 @@
 # Recommendation_System-PyTorch
 Prodcution-level implementations of recommender system Full Pytorch Implementation
 
+#### Recommendation-System Common Architecture (Hybrid Filtering Model)
+![example](./img/hybrid.pngg)
+
 #### Title
 Implementations of various recommender systems in PyTorch
+
+#### Abstract
+Recommender systems are tools for interacting with large and complex information spaces. They provide a personalized view of such spaces, prioritizing items likely to be of interest to the user. The field, christened in 1995, has grown enormously in the variety of problems addressed and techniques employed, as well as in its practical applications. Recommender systems research has incorporated a wide variety of artificial intelligence techniques including machine learning, data mining, user modeling, case-based reasoning, and constraint satisfaction, among others. Personalized recommendations are an important part of many online ecommerce applications such as Amazon.com, Netflix, and Pandora. This wealth of practical application experience has provided inspiration to researchers to extend the reach of recommender systems into new and challenging areas. The purpose of the articles in this special issue is to take stock of the current landscape of recommender systems research and identify directions the field is now taking. This article provides an overview of the current state of the field and introduces the various articles in the special issue. Copyright © 2011, Association for the Advancement of Artificial Intelligence. All rights reserved. (Link to [Full Article](https://www.researchgate.net/publication/220604600_Recommender_Systems_An_Overview))
+
+#### Example
+![result](./img/PersonalizedRecoSystems.jpg)
+
 
 ## Data
 - MovieLens Data 100k & 1M ([download](https://grouplens.org/datasets/movielens/))
 - Data files are in "data" folder
-
-#### Recommendation-System Common Architecture
-![result](./img/PersonalizedRecoSystems.jpg)
 
 ## Model Zoo
 | Model    | Paper                                                                         |
