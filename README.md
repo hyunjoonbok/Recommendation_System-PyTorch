@@ -9,7 +9,7 @@ Implementations of various recommender systems in PyTorch
 - Data files are in "data" folder
 
 #### Recommendation-System Common Architecture
-![image](./img/PersonalizedRecoSystems.png)
+![result](./img/PersonalizedRecoSystems.jpg)
 
 ## Model Zoo
 | Model    | Paper                                                                         |
