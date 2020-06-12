@@ -2,7 +2,7 @@
 Prodcution-level implementations of recommender system Full Pytorch Implementation
 
 #### Recommendation-System Common Architecture (Hybrid Filtering Model)
-![example](./img/hybrid.pngg)
+![example](./img/hybrid.png)
 
 #### Title
 Implementations of various recommender systems in PyTorch
