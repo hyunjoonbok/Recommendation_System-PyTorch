@@ -4,7 +4,7 @@ Prodcution-level implementations of recommender system Full Pytorch Implementati
 #### Title
 Implementations of various recommender systems in PyTorch
 
-#### Data
+## Data
 - MovieLens Data 100k & 1M ([download](https://grouplens.org/datasets/movielens/))
 - Data files are in "data" folder
 
@@ -13,29 +13,31 @@ Implementations of various recommender systems in PyTorch
 
 ## Model Zoo
 | Model    | Paper                                                                         |
-|------------------|-------------------------------------------------------------------------------------------------------------|
-| BPRMF            | Steffen Rendle et al., BPR: Bayesian Personalized Ranking from Implicit Feedback. UAI 2009. [Link](https://arxiv.org/pdf/1205.2618) |
-| ItemKNN          | Jun Wang et al., Unifying user-based and item-based collaborative filtering approaches by similarity fusion. SIGIR 2006. [Link](http://web4.cs.ucl.ac.uk/staff/jun.wang/papers/2006-sigir06-unifycf.pdf) |
-| SLIM             | Xia Ning et al., SLIM: Sparse Linear Methods for Top-N Recommender Systems. ICDM 2011. [Link](http://glaros.dtc.umn.edu/gkhome/fetch/papers/SLIM2011icdm.pdf) |
-| MultVAE          | Dawen Liang et al., Variational Autoencoders for Collaborative Filtering. WWW 2018. [Link](https://arxiv.org/pdf/1802.05814) |
+|------------------|-----------------------------------------------------------------------|
+| BPRMF            | [Link](https://arxiv.org/pdf/1205.2618) |
+| ItemKNN          | [Link](http://web4.cs.ucl.ac.uk/staff/jun.wang/papers/2006-sigir06-unifycf.pdf) |
+| SLIM             | [Link](http://glaros.dtc.umn.edu/gkhome/fetch/papers/SLIM2011icdm.pdf) |
+| MultVAE          | [Link](https://arxiv.org/pdf/1802.05814) |
 
 
-## How to run
-1. Choose RecSys model and edit configurations in main.py
-2. Edit configurations of the model you choose in 'conf'
-3. run 'main.py'
+## Training 
+    $ python main.py 
+                --model YOUR MODEL (default: SLIM)
+                --data_dir [YOUR DIRECTORY]
+                --save_dir [YOUR SAVE DIRECTORY]
+                --conf_dir [YOUR CONFIGURATION DIRECTORY] \ (i.e. './drive/My Drive/Python/Recommendation_System-PyTorch/config' 
+                --seed YOUR SEED 
 
-## Implement your own model
-You can add your own model into the framework if:
+## Create your own model
+1. Create 'Yourmodel.py' that inherits 'BaseModel.py'
+2. Create 'YourModel.json' file in 'config' folder
+3. Implement necessary class and add additional methods if you want.
+4. Add your model in 'ModelBuilder.py'
+5. Run 'main.py' with edited parameters
 
-1. Your model inherits 'BaseModel' class in 'models/BaseModel.py'
-2. Implement necessary methods and add additional methods if you want.
-3. Make 'YourModel.conf' file in 'conf'
-4. Add your model in 'utils.ModelBuilder.py'
-
-# Reference
+## Reference
 - Facebook Group [Link](https://www.facebook.com/groups/2611614312273351)
 - Facebook Group [Link](https://www.facebook.com/groups/PyTorchKR)
-- Recommendation in Pytorch [github](https://github.com/yoongi0428/RecSys_PyTorch/blob/master/README.md)
-- RecSys 2019 [github](https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation)
+- Recommendation in Pytorch [github](https://github.com/yoongi0428/RecSys_PyTorch/blob/master/README.md) - util.py / Tools.py
+- RecSys 2019 [github](https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation) - util.py / Tools.py
 - NeuRec [github](https://github.com/wubinzzu/NeuRec)
