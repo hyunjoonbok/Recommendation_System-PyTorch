@@ -29,7 +29,7 @@ Recommender systems are tools for interacting with large and complex information
                 --model YOUR MODEL (default: SLIM)
                 --data_dir [YOUR DIRECTORY]
                 --save_dir [YOUR SAVE DIRECTORY]
-                --conf_dir [YOUR CONFIGURATION DIRECTORY] \ (i.e. './drive/My Drive/Python/Recommendation_System-PyTorch/config' 
+                --conf_dir [YOUR CONFIGURATION DIRECTORY]
                 --seed YOUR SEED 
 
 ## Result
