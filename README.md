@@ -33,7 +33,7 @@ Recommender systems are tools for interacting with large and complex information
                 --seed YOUR SEED 
 
 ## Result
-Plese refer to [Python Notebook](https://github.com/hyunjoonbok/Recommendation_System-PyTorch/blob/master/run_main.ipynb) that ran 1 sample epoch for the model SLIM (default)
+Plese refer to [Jupyter Notebook](https://github.com/hyunjoonbok/Recommendation_System-PyTorch/blob/master/run_main.ipynb) that ran 1 sample epoch for the model SLIM (default)
 Modify methods in other python files to increase epoch and change other hyperparameters
 
 
