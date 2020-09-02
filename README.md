@@ -1,5 +1,5 @@
 # Recommendation_System-PyTorch
-Prodcution-level implementations of recommender system in **Pytorch** 
+Prodcution-level implementations of recommendation system in **Pytorch**
 
 #### Recommendation-System Common Architecture (Hybrid Filtering Model)
 ![example](./img/hybrid.png)
@@ -12,7 +12,7 @@ Recommender systems are tools for interacting with large and complex information
 
 
 ## Data
-- MovieLens Data 100k & 1M ([download](https://grouplens.org/datasets/movielens/))
+- MovieLens Data 100k & 1M ([download link](https://grouplens.org/datasets/movielens/))
 - Data files are in "data" folder
 
 ## Model Zoo
